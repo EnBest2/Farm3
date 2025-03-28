@@ -1,0 +1,10 @@
+
+{
+  "name": "Farmos játék",
+  "short_name": "Farm",
+  "start_url": ".",
+  "display": "standalone",
+  "background_color": "#c0e6a0",
+  "theme_color": "#8b5a2b",
+  "icons": []
+}

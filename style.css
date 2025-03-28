@@ -1,0 +1,55 @@
+
+body {
+  font-family: sans-serif;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  background: #c0e6a0;
+}
+#character-select h1 {
+  margin-top: 20px;
+}
+.char-container {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  margin-top: 20px;
+}
+.char-container div {
+  cursor: pointer;
+}
+.char-container img {
+  width: 120px;
+  border-radius: 10px;
+}
+#farm-background {
+  background: url('palya.png') center center no-repeat;
+  background-size: cover;
+  padding: 40px 0;
+}
+#farm-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 100px);
+  grid-gap: 10px;
+  justify-content: center;
+}
+.plot {
+  width: 100px;
+  height: 86px;
+  background-image: url('plot_iso.png');
+  background-size: cover;
+  cursor: pointer;
+}
+.plot.carrot {
+  background-image: url('carrot_iso.png');
+}
+#info-bar {
+  background: #fff8dc;
+  padding: 10px;
+  font-weight: bold;
+}
+#info-bar img {
+  width: 40px;
+  vertical-align: middle;
+  margin-right: 10px;
+}

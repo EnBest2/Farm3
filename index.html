@@ -1,0 +1,36 @@
+
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="manifest" href="manifest.json">
+  <link rel="stylesheet" href="style.css">
+  <title>Farmos játék</title>
+</head>
+<body>
+  <div id="character-select">
+    <h1>Válassz karaktert</h1>
+    <div class="char-container">
+      <div onclick="selectCharacter('Gergő')">
+        <img src="gergo.png" alt="Gergő">
+        <p>Gergő</p>
+      </div>
+      <div onclick="selectCharacter('Dóri')">
+        <img src="dori.png" alt="Dóri">
+        <p>Dóri</p>
+      </div>
+    </div>
+  </div>
+  <div id="game" style="display: none;">
+    <div id="info-bar">
+      <img id="character-img" src="" alt="" />
+      <span id="character-name"></span> | Pénz: <span id="money">100</span>
+    </div>
+    <div id="farm-background">
+      <div id="farm-grid"></div>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
